@@ -27,12 +27,12 @@ jobs:
         name: package
         path: target/*.jar
     - name: Greet someone
-      uses: fuyibenchung/my-github-action@4.0
+      uses: fuyibenchung/my-github-action@3.0
       with:
         name: 'John Doe'  
     - name: Run My Shell Action
       id: myaction
-      uses: fuyibenchung/my-github-action-shell@3.0
+      uses: fuyibenchung/my-github-action-shell@4.0
       with:
           name: "Mary Jane"
     - name: Use output from My Shell Action
