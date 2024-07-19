@@ -21,7 +21,7 @@ jobs:
         cache: maven
     - name: Run My Shell Action
       id: myaction
-      uses: fuyibenchung/my-github-action-shell@4.0
+      uses: fuyibenchung/my-github-action-shell@5.0
       with:
           name: "Mary Jane"
     - name: Set up Maven cache 2
