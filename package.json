@@ -1,0 +1,35 @@
+{
+  "name": "example-project",
+  "version": "1.0.0",
+  "description": "An example project to demonstrate caching in GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/example-project.git"
+  },
+  "keywords": [
+    "example",
+    "node",
+    "github",
+    "actions"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/username/example-project/issues"
+  },
+  "homepage": "https://github.com/username/example-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
